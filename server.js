@@ -31,6 +31,6 @@ app.get('/', (req, res) => {
   res.send('WebSocket server running');
 });
 
-server.listen(8000, () => {
+server.listen(8080, () => {
   console.log('Server running on http://localhost:8080');
 });
